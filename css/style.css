@@ -69,10 +69,11 @@ a:hover{
 }
 
 .footer{
-    padding: 2px;
+    padding: 20px;
     text-align: center;
     background-color: #359;
     margin-top: 20px;
+    color: white;
 }
 
 @media screen and (max-width:800px) {
