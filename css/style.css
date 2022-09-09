@@ -36,3 +36,39 @@ a:hover{
     background-color:yellowgreen;
     color: #359;
 }
+
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+.rightcolumn{
+    float: left;
+    width: 25%;
+    background-color: beige;
+    padding-left: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.fakeimg{
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+}
+
+.row::after{
+    content: 'Hello';
+    display: table;
+    clear: both;
+}
+
+.footer{
+    padding: 2px;
+    text-align: center;
+    background-color: #359;
+    margin-top: 20px;
+}
+
