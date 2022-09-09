@@ -24,6 +24,7 @@ h1{
     overflow: hidden;
     background-color: orange;
 }
+
 a{
     display: block;
     float: left;
@@ -32,6 +33,7 @@ a{
     padding: 15px 15px;
     text-decoration: none;
 } 
+
 a:hover{
     background-color:yellowgreen;
     color: #359;
@@ -47,6 +49,7 @@ a:hover{
     background-color: beige;
     padding-left: 20px;
 }
+
 .card{
     background-color: white;
     padding: 20px;
@@ -71,4 +74,20 @@ a:hover{
     background-color: #359;
     margin-top: 20px;
 }
+
+@media screen and (max-width:800px) {
+    .leftcolumn, .rightcolumn{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .topnav{
+        float: none;
+        width: 100%;
+    }
+}
+
+
 
